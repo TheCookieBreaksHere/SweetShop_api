@@ -25,6 +25,7 @@ public class ApplicationConfig extends Application {
 
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(com.mypkg.MenuEndpoint.class);
+        resources.add(com.mypkg.OrdersEndpoint.class);
     }
     
 }
